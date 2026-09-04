@@ -1,4 +1,4 @@
-public class AlgoritmosTres {
+public class AlgoritmoTres {
     
     void main(){
 

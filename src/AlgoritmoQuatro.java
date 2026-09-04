@@ -1,9 +1,10 @@
+
 public class AlgoritmoQuatro {
-    public static void main(String[] args) {
+
+    void main(){
         // Qual o mês do ano atual?
         int mes = Integer.parseInt(IO.readln("Digite o mês atual (1 a 12): "));
         IO.println("O mês atual é: " + mes);
-        
         switch(mes){
             case 1:
                 IO.println("Janeiro");
@@ -45,4 +46,5 @@ public class AlgoritmoQuatro {
                 IO.println("Mês inválido!");
         }
     }
+   
 }

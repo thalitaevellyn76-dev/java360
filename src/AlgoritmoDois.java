@@ -1,4 +1,4 @@
-public class AlgoritmosDois {
+public class AlgoritmoDois {
     
     void main(){
         //ENTRADA DE DADOS
