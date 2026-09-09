@@ -8,6 +8,7 @@ public class VerificaNome {
         String nome = entrada.nextLine();
 
         // Estrutura condicional sem chaves
+        
         if (nome.equalsIgnoreCase("Thalita"))
             System.out.println("Acesso liberado: O nome digitado realmente é Thalita!");
         else

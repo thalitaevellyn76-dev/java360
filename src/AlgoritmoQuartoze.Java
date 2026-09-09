@@ -1,13 +1,11 @@
-public class AlgoritmoQuartoze {
+public class AlgoritmoQuatorze {
 
-    public void main() {
+    public static void main(String[] args) {
 
         // Entrada de opção do menu
-
         int opcao = Integer.parseInt(IO.readln("--- MENU DO JOGO ---\n1. Iniciar\n2. Status de Vida\n3. Sair\nDigite uma opção: "));
 
         // Estrutura de seleção múltipla (switch)
-        
         switch (opcao) {
             case 1:
                 IO.println("Jogo iniciado");
