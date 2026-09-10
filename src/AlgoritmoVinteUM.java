@@ -11,7 +11,7 @@ public class AlgoritmoVinteUM {
         double media = soma / numeros.length;
 
         System.out.println("Soma total: " + (int) soma);
-        System.out.println("Soma total: " + media );
+        System.out.println("Média: " + media);
     }
     
 }
