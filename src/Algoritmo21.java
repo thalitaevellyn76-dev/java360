@@ -1,5 +1,3 @@
-package src;
-
 public class Algoritmo21 {
     public static void main(String[] args) {
         int[] numeros = {45 , 67 , 89 , 34 , 23 , 56 , 78 , 45 ,98 , 34 };

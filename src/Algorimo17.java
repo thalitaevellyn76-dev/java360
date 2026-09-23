@@ -1,5 +1,3 @@
-package src;
-
 public class Algorimo17 {
       public static void main(){
     int i = 1;

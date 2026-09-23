@@ -1,5 +1,3 @@
-package src;
-
 public class Algoritmo4 {
     public static void main(){
         if(2<10){
@@ -7,7 +5,7 @@ public class Algoritmo4 {
         }
         else {
 
-             IO.println("número é maior ou igual a 10");
+         IO.println("número é maior ou igual a 10");
         }
 
             IO.println("número é maior ou igual a 10");

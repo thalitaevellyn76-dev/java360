@@ -1,5 +1,3 @@
-package src;
-
 public class Algoritmo11 {
     public static void main(){
         String nome = IO.readln("digite seu nome: ");

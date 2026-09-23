@@ -1,5 +1,3 @@
-package src;
-
 public class Algoritmo24 {
       public void main() {
         // Definindo o vetor de 5 posições

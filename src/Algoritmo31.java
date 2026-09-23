@@ -1,5 +1,3 @@
-package src;
-
 public class Algoritmo31 {
      //camelCasing
     /*<<modificador <<tipo>> nomeDoMetodo(parametros){

@@ -1,5 +1,3 @@
-package src;
-
 public class Algoritmo5 {
     void main(){
         int numero = Integer.parseInt

@@ -1,5 +1,3 @@
-package src;
-
 public class Algoritmo15{
 
     public static void main(String[] args) {

@@ -1,5 +1,3 @@
-package src;
-
 public class Algoritmo27 {
     public void main(){
         // definindo o vetor de 5 posições

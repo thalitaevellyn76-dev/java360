@@ -1,5 +1,3 @@
-package src;
-
 public class Algoritmo29 {
     public void main() {
       

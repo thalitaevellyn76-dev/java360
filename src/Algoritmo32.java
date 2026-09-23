@@ -1,5 +1,3 @@
- package src;
-
 public class Algoritmo32 {
     public void mostrarSalaEco(String nome){
         IO.println("Quem ousa entrar na sala do eco?");
