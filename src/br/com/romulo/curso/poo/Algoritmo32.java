@@ -1,4 +1,5 @@
-package br.com.romulo.curso.poo;
+ package br.com.romulo.curso.poo;
+
 public class Algoritmo32 {
     public void mostrarSalaEco(String nome){
         IO.println("Quem ousa entrar na sala do eco?");

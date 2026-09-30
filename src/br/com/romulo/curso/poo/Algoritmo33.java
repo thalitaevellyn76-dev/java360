@@ -1,4 +1,5 @@
 package br.com.romulo.curso.poo;
+
 public class Algoritmo33 {
 
     private int chave; // atributo
