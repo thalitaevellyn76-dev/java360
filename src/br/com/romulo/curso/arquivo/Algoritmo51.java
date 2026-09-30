@@ -1,3 +1,4 @@
+package br.com.romulo.curso.arquivo;
 public class Algoritmo51 {
 
     public static void main(String[] args) {

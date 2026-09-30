@@ -1,3 +1,4 @@
+package br.com.romulo.curso.arquivo;
 import java.util.HashMap; //Pacote
 import java.util.Map; //pacote
 //pacote e util
@@ -20,6 +21,8 @@ public class Algoritmo53 {
         //Map<String, Aluno> dicionarioAlunos = new hashMap();
         //Generics - definir qualquer tipo <T> - generico
         // toda a classe object
+
+        Map<String, Estudante> estudante
 
     }
     
