@@ -1,40 +1,46 @@
 package br.com.romulo.curso.arquivo;
+import javax.swing.JOptionPane;//importou o swing
+
 public class Algoritmo51 {
 
-    public static void main(String[] args) {
-        // criar uma calculadora
-        // que so tem a operacao de divisao
+    void main(){
 
-        // tratar uma excecao de
-        // um numero dividido por zero
-        // Use o robozinho...
+        //Criar calculadora
+        //Que só tem a operação de divisão
+        //Tratar uma exceção de um número dividido por zero
+        //Use ia 
+        // Log (console)
+        IO.println("*** CALCULADORA DE DIVISÃO ***");
 
-        //try
-          //entre com numero
-          //entre com o divisor
-          //calculo
-        //catch
+        double numero1;//variável
+        double numero2; //variável
+        String titulo = "*** CALCULADORA DE DIVISÃO ***"; //título
+        int janelaAtencao = JOptionPane.INFORMATION_MESSAGE; //tipo de jan
 
-        //catch
+        
 
-        //finaly
+        try{
+            numero1 = Double.parseDouble(JOptionPane.showInputDialog(
+                         null,"Digite o primeiro número:", titulo, janelaAtencao));
+            numero2 = Double.parseDouble(JOptionPane.showInputDialog(
+                         null,"Digite o segundo número:", titulo, janelaAtencao));
 
-        try {
-            IO.println("Entre com o numero:");
-            int numero = Integer.parseInt(IO.readln());
+                if(numero2 == 0){
+                
+                    throw new IllegalArgumentException("Não é possível dividir por zero!");
 
-            IO.println("Entre com o divisor:");
-            int divisor = Integer.parseInt(IO.readln());
+                }
 
-            int calculo = numero / divisor;
-            IO.println("Resultado da divisão: " + calculo);
-
-        } catch (ArithmeticException e) {
-            IO.println("Erro: Não é possível dividir por zero!");
-        } catch (NumberFormatException e) {
-            IO.println("Erro: Por favor, digite apenas números inteiros válidos!");
-        } finally {
-            IO.println("Operação finalizada.");
-        }
+            double resultado = numero1 / numero2;
+            JOptionPane.showMessageDialog(null, "Resultado da divisão:\n" + resultado, titulo, janelaAtencao);
+            
+        }catch(NumberFormatException e){
+            JOptionPane.showMessageDialog(null,
+                                  "Você só pode digitar números! Tente novamente.", titulo, janelaAtencao);            
+        }catch(IllegalArgumentException e){
+            JOptionPane.showMessageDialog(null, e.getMessage(), titulo, janelaAtencao);            
+        }finally{
+            JOptionPane.showMessageDialog(null,"Fim da operação.", titulo, janelaAtencao);
+        }       
     }
 }
