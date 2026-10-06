@@ -1,0 +1,11 @@
+[29/09/2026 09:34:35] Não entendi como um arquivo é criado
+[29/09/2026 09:37:35] Para que ser o IO.println(  )
+[29/09/2026 09:38:53] Qual a vantagem técnica de definir um resource dentro de um try( )?
+[29/09/2026 09:41:36] O FileWriter cria também outros arquivos além do .txt?
+[29/09/2026 09:42:43] Os dados armazenados no arquivo do FileWriter podem ser utilizados em um banco de dados? 
+[29/09/2026 09:48:40] Por que existe os imports antes do inicio da classe?
+[29/09/2026 09:52:20] Vai ter intervalo agora?
+[29/09/2026 10:42:45] Para que serve a classe FileWriter?
+[29/09/2026 10:49:35] Qual a diferença entre usar um Exception e um IOException?
+[29/09/2026 10:50:38] Para que serve o CATCH?
+[29/09/2026 10:58:53] Um aluno perguntou sobre o cacth e utilizamos analogia de erros HTTP acessando o site: https://http.cat/
