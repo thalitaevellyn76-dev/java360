@@ -1,0 +1,12 @@
+package br.com.src.curso.poo;
+
+public class Algoritmomarca {
+    private String nome;
+    public String getNome() {
+        return nome;
+    }
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+    
+}

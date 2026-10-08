@@ -1,0 +1,28 @@
+/*
+   BELEZA do SITE
+       -Cor
+       -Tamanho
+       -Fonte
+       -Bordas
+       -Sombra
+       
+*/
+body{
+    background-color: #f1f1f0;
+    color:#131212;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*
+   Minha Paleta
+   #663C24
+   #996D54
+   #CCAB99
+   #CCAB99
+   #FFE7D9
+*/
+/* html - seletor
+   scroll-behavior - propriedade*/
+html{
+    scroll-behavior: smooth;
+}
